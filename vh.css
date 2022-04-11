@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+background-color: black;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  justify-content: center;
+background-image:url(stars.png);
+  background-color: black;
+}
+
+div {
+  font-family: 'vt323';
+  position: relative;
+  width: 300px;
+  height: 310px;
+    padding-top: 10px;
+  text-align: center;
+  color: #252B37;
+  background-color: #151823;
+  animation: textColor 10s ease infinite;
+}
+div:after {
+  position: absolute;
+  content: "";
+  top: 5vw;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.75);
+  -webkit-filter: blur(60px);
+  -moz-filter: blur(60px);
+  -ms-filter: blur(60px);
+  filter: blur(60px);
+  background: linear-gradient(270deg, #0fffc1, #7e0fff);
+  background-size: 200% 200%;
+  animation: animateGlow 10s ease infinite;
+}
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes textColor {
+  0% {
+    color: #7e0fff;
+  }
+  50% {
+    color: #0fffc1;
+  }
+  100% {
+    color: #7e0fff;
+  }
+}
+.back {
+    color:lightgreen;
+    font-size: 25px;
+     margin-right: 100px;
+    font-family:'vt323';
+    
+}
+
+.space {
+    border-bottom: 1px transparent black;
+    width: 40%;
+    height:1px;
+}
+
+#header {
+    color:white;
+    text-align: left;
+    font-family:'vt323';
+}
+
+.space {
+    border-bottom: 1px transparent black;
+    width: 40%;
+    height:1px;
+}
+
+#header {
+    color:white;
+    text-align: left;
+    font-family:'vt323';
+}
+
+.divide2 {
+      margin-top: 5px;
+    
+    height: 2px;
+}
+
+.sticky {
+   
+       position:fixed;
+    background: radial-gradient(ellipse at bottom, #0A101E 0%,  #01030F 100%); 
+    z-index:1;
+    border-radius: 10px ;
+    border-bottom: 5px groove #20C20E;
+    margin-right: 6px;
+    width: 98%;
+}
+
+#top {
+    padding-: 90px;
+}
+
+
+
+#eb {
+    font-size: 12px;
+    
+}

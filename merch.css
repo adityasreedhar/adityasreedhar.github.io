@@ -1,13 +1,64 @@
 html {
-    
-     
-    
-   
   
+  background: ;
+   overflow: auto;
+    height:130%;
     background-color:black;
-    color: white;
-    font-family: 'menlo';
-    zoom:120%;
+    
+
+}
+
+body {
+    overflow:hidden;
+    height:100%;
+    
+    
+}
+
+
+
+font-family: 'Inconsolata', monospace;
+
+#
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+#title span {
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+VIEW RESOURCES 
+
+
+
+
+
+
+
+
+
+body{
     
 
     
@@ -15,14 +66,8 @@ html {
 
 
 
-
-
-/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/cursors/cur-4/cur330.cur), auto !important;} /* End http://www.cursors-4u.com */
-
-
-
-
-   
+    
+        
 
 
 .typewriter {
@@ -64,12 +109,8 @@ html {
 }
 
 .menu{
-    color:lightgreen;
-    font-size: 25px;
-     text-align:center;
-    font-family:'menlo';
-    
-    
+    font-family:'Inconsolata', monospace;
+
     
     
 }
@@ -77,27 +118,27 @@ html {
  
     a:link {
     text-decoration: none;
-    color:#20C20E;
+    color:#20e20c;
     
 }
 
 a:visited {
     text-decoration: none;
-    color:#20C20E;
+    color:#20e20c;
 }
 
 a:hover {
     text-decoration: none;
-    color:white;
-    background-color: #20C20E;
+    
+    zoom:93%;
     
 }
 
 
 a:active {
     text-decoration: none;
-      color:white;
-    background-color: #20C20E;
+      color:#20e20c;
+    background-color: pink;
     border-radius: 5px;
    
 }
@@ -108,7 +149,7 @@ a:active {
 }
 
 #date {
-    font-family: 'menlo';
+    font-family: 'Inconsolata', monospace;
     color: white;
     font-size: 15px;
      margin: 0em 4.1em;
@@ -123,56 +164,54 @@ a:active {
 }
 
 .divide {
-    margin-top: 10px;
+   
     border-bottom: 0px solid white;
     height: 2px;
-    margin-left:120px;
-    margin-right: 120px;
+    margin-left:20%;
+    margin-right: 20px;
+    
     
 }
 
 #min {
-    font-family:'menlo';
+    font-family:'Inconsolata', monospacex;
     font-size:15px;
     color: white;
-    margin-left:130px;
+    margin-left:50%;
 }
 
 .back {
     color:lightgreen;
     font-size: 25px;
      margin-right: 100px;
-    font-family:'menlo';
-    
+    font-family:'Inconsolata', monospace;
 }
 
 
 #header {
     color:white;
     text-align: left;
-    font-family:'menlo';
-    
+    font-family:'Inconsolata', monospace;
 }
 
 .space {
-    border-bottom: 1px transparent black;
-    width: 3%;
+    border-bottom: 1px solid black;
+    width: 40%;
     height:1px;
-   
 }
 
 .divide2 {
     
 
-        margin-top: px;
+        margin-top: 5px;
     
     height: 2px;
     
 }
 
 .regular {
-     font-family:'menlo';
-    font-size:25px;
+     font-family:'Inconsolata', monospace;
+    font-size:17px;
     color: white;
     
 }
@@ -201,7 +240,7 @@ a:active {
 
 .auction-nudge {
     
-    font-family:'menlo'
+    font-family:'Inconsolata', monospace
     border: 9px solid blue;
     color:white; 
      
@@ -209,27 +248,27 @@ a:active {
 }
 
 #auction-nudge-items {
-    border: 0px ridge white;
+    border: 4px ridge #20C20E;
     width:341px;
     border-radius: 25px;
     padding-left: 20px;
-    font-family:'menlo';
+    font-family:'Inconsolata', monospace;
     
     
 }
 
 .eb {
-    font-family: 'menlo';
+    font-family: 'Inconsolata', monospace;
     
     color: white;
-   padding-left: 100px;
+   
     font-size: 25px;
-    
+    text-align: center;
     
 }
 
 #center {
-    text-align: center;
+    text-align: cnter;
 }
 
 .floatl {
@@ -238,7 +277,7 @@ a:active {
     float: inherit;
     text-align: center;
     padding-bottom:10px;
-    font-family: 'menlo'
+    font-family: 'Inconsolata', monospace
 }
 
 .floatr {
@@ -251,7 +290,8 @@ a:active {
 .center {
     text-align: center;
     color:white;
-    font-family: 'menlo';
+    font-family: 'Inconsolata', monospace;
+    
 }
 
 .float3 {
@@ -323,14 +363,12 @@ a:active {
 
 .sticky {
     position:fixed;
-    overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #0A101E 0%,  #000000 100%); 
-    border-radius: 0px ;
-    padding-bottom: 6px;
-    width: 100%;
-    bottom:0;
-
-
+    background-color: black; 
+    z-index:1;
+    border-radius: 10px ;
+    border-bottom: 5px groove #20C20E;
+    margin-right: 6px;
+    
     
    
 }
@@ -362,10 +400,10 @@ a:active {
   box-sizing:border-box;
   font-family:'Fira Mono', monospace;
   font-size:20px;
-  height:100%vh;
+  height:190vh;
   overflow:hidden;
   padding:10vmin;
-  width:100%;
+  width:100vw;
 }
 
 .screen:before {
@@ -444,7 +482,8 @@ p:last-child:after {
 #ttle {
      color:white;
     margin: 0em 4.0em;
-    font-family: 'menlo';
+    font-family: 'Inconsolata', monospace;
+    
     
 }
 
@@ -515,13 +554,11 @@ p:last-child:after {
 
 #pos {
     
-    font-family: 'menlo';
+    font-family: 'Inconsolata', monospace;
     color:white;
     display: block;
-    text-align: center;
-    color:#20c20e;
-    
-    
+    margin-left: -27px;
+    margin-right: auto;
     
 }
 
@@ -790,7 +827,9 @@ p:last-child:after {
 
 
 * {
-
+  box-sizing: border-box;
+   
+   
 }
 
 
@@ -854,7 +893,7 @@ padding-top: 0px;
 }
 
 #under {
-    
+    position:relative;
 }
 
 #pd {
@@ -874,8 +913,8 @@ height: 120px;
 
   top:150px;
   border-radius:20px;
-  left:0%;
-  margin: -50px 0 0 46px;
+  left:50%;
+  margin: -50px 0 0 80px;
   animation: border-flicker 2s linear infinite;
 }
 
@@ -1044,14 +1083,14 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 }
 
 #minn {
-    border:1px solid black;
+    border-top:1px solid black;
     width: 10px;
 }
 
 #eb {
     color:white;
-    font-family: 'menlo';
-   
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
 }
 
 #lol {
@@ -1062,7 +1101,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     
 
 #change-theme-btn {
-    font:'menlo';
+    font:'Inconsolata', monospace;
     border:0;
     outline:0;
     background-color:darkgrey;
@@ -1077,16 +1116,16 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 }
 
 #button {
- font-family: ;
+ font-family: 'Inconsolata', monospace;
     text-align: center;
     padding-left: 10px;
-    color:#20C20E;
-    border: 0px solid gray;
+    color:#20c20e;
+    border: 2px solid white;
    padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
-    border-radius: 7px;
-    background-color:#212121;
+    border-radius: 10px;
+    background-color:black;
 }
 
 .fs {
@@ -1098,14 +1137,13 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 
 #padd {
     padding-left:16px;
-    zoom:125%;
 }
 
 #buttonn {
-    font-family: 'menlo';
+    font-family: 'Inconsolata', monospace;
     text-align: center;
     padding-left: 10px;
-    color:white;
+    color:red;
     border: 2px solid darkgrey;
    padding-top: 5px;
     padding-bottom: 5px;
@@ -1118,15 +1156,13 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     border: 4px ridge #20C20E;
     border-radius: 40px;
     margin-right: 30px;
-    margin-left: 10px;
-    width:350px;
+    margin-left: 30px;
 }
-
 
 #header1 {
          color:white;
     text-align: left;
-    font-family:'menlo';
+    font-family:'Inconsolata', monospace;
     font-size: 22px;
 }
 
@@ -1136,119 +1172,37 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 
 
 
-
-           
-            
-      
-#effectss {
-     font-size:15px;
-}
-
-#space {
-    padding-left: 0px;
-    font-size: 23px;
-
+.ceter {
     
+    float:right;
+   
 }
 
-.cotainer {
-    
+.news {
+    border: 2px solid green;
+    font-family: 'Inconsolata', monospace;
+    width: 50px;
 }
 
-#rt {
-   padding-right: 50px;
-}
-
-#a {
-    font-size: 45px;
-}
-
-.size {
-    font-size: 20px;
-}
-
-#len {
-    border:solid black 1px;
-    width:10px;
-}
-
-#news {
-    
-}
-
-#hi {
-    
-}
-
-.padd {
-    padding: 100%;
-}
-
-.regularr {
-     font-family:'menlo';
-    font-size:45px;
-}
-
-.ebb {
-    font-family: 'menlo';
-    
+.s3ddize {
+    font-family: 'menlo'; 
+    font-size: 16px;
     color: white;
-   padding-left: 20px;
-    font-size: 25px;
+    font-weight: ;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    padding-right: 50px;
+     padding-left: 100px;
+    padding-right: 100px;
 }
 
-#ebn {
-    border: 2px solid white;
-    margin-right: 700px;
-    margin-left: 20px;
-    border-radius: 0px;
-}
-
-.regularrr {
-     font-family:'menlo';
-    font-size:20px;
-    color: white;
-    margin-left: 20px;
-}
-
-.scroll {
-}
-
-.containerr {
-     width: 650px;
-        height: 320px;
-        position:sticky;
-    margin: auto;
-}
-
-.box {
-    width: 100%;
-        height: 90%;
-        margin-left: 86px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0.8;  /* for demo purpose  */
-}
-
-.stack-top {
-     z-index: 9;
-        margin: 20px; /* for demo purpose  */
-}
-
-.pos {
-margin-bottom:200px;
-
-}
-
-#daate {
-     font-family: 'menlo';
-    color: white;
+.menulinks {
+   
+    color:pink;
     font-size: 15px;
-    
-     
-}
+    margin-left:20%;
+     text-align:left;
+    font-family:'Inconsolata', monospace;
 
-body {
-    
 }

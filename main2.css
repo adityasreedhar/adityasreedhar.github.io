@@ -15,7 +15,10 @@ body {
     
 }
 
-/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/cursors/cur-4/cur330.cur), auto !important;} /* End http://www.cursors-4u.com */ 
+
+
+font-family: 'Inconsolata', monospace;
+
 #stars {
     content:"e";
   background: transparent;
@@ -154,12 +157,8 @@ body{
 }
 
 .menu{
-    color:lightgreen;
-    font-size: 25px;
-     text-align:center;
-    font-family:'vt323';
-    
-    
+    font-family:'Inconsolata', monospace;
+
     
     
 }
@@ -198,7 +197,7 @@ a:active {
 }
 
 #date {
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     color: white;
     font-size: 15px;
      margin: 0em 4.1em;
@@ -216,31 +215,31 @@ a:active {
     margin-top: 1px;
     border-bottom: 0px solid white;
     height: 2px;
-    margin-left:20px;
+    margin-left:20%;
     margin-right: 20px;
     
     
 }
 
 #min {
-    font-family:'vt323';
+    font-family:'Inconsolata', monospacex;
     font-size:15px;
     color: white;
-    margin-left:130px;
+    margin-left:50%;
 }
 
 .back {
     color:lightgreen;
     font-size: 25px;
      margin-right: 100px;
-    font-family:'vt323';
+    font-family:'Inconsolata', monospace;
 }
 
 
 #header {
     color:white;
     text-align: left;
-    font-family:'vt323';
+    font-family:'Inconsolata', monospace;
 }
 
 .space {
@@ -259,7 +258,7 @@ a:active {
 }
 
 .regular {
-     font-family:'vt323';
+     font-family:'Inconsolata', monospace;
     font-size:17px;
     color: white;
     
@@ -289,7 +288,7 @@ a:active {
 
 .auction-nudge {
     
-    font-family:'vt323'
+    font-family:'Inconsolata', monospace
     border: 9px solid blue;
     color:white; 
      
@@ -301,13 +300,13 @@ a:active {
     width:341px;
     border-radius: 25px;
     padding-left: 20px;
-    font-family:'vt323';
+    font-family:'Inconsolata', monospace;
     
     
 }
 
 .eb {
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     
     color: white;
    
@@ -326,7 +325,7 @@ a:active {
     float: inherit;
     text-align: center;
     padding-bottom:10px;
-    font-family: 'vt323'
+    font-family: 'Inconsolata', monospace
 }
 
 .floatr {
@@ -339,7 +338,7 @@ a:active {
 .center {
     text-align: center;
     color:white;
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     
 }
 
@@ -531,7 +530,7 @@ p:last-child:after {
 #ttle {
      color:white;
     margin: 0em 4.0em;
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     
     
 }
@@ -603,7 +602,7 @@ p:last-child:after {
 
 #pos {
     
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     color:white;
     display: block;
     margin-left: -27px;
@@ -1138,7 +1137,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 
 #eb {
     color:white;
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     text-align: center;
 }
 
@@ -1150,7 +1149,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     
 
 #change-theme-btn {
-    font:'vt323';
+    font:'Inconsolata', monospace;
     border:0;
     outline:0;
     background-color:darkgrey;
@@ -1165,7 +1164,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 }
 
 #button {
- font-family: 'vt323';
+ font-family: 'Inconsolata', monospace;
     text-align: center;
     padding-left: 10px;
     color:#20c20e;
@@ -1189,7 +1188,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 }
 
 #buttonn {
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     text-align: center;
     padding-left: 10px;
     color:red;
@@ -1211,7 +1210,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 #header1 {
          color:white;
     text-align: left;
-    font-family:'vt323';
+    font-family:'Inconsolata', monospace;
     font-size: 22px;
 }
 
@@ -1229,7 +1228,7 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
 
 .news {
     border: 2px solid green;
-    font-family: 'vt323';
+    font-family: 'Inconsolata', monospace;
     width: 50px;
 }
 
@@ -1244,4 +1243,14 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
     padding-right: 50px;
      padding-left: 100px;
     padding-right: 100px;
+}
+
+.menulinks {
+   
+    color:lightgreen;
+    font-size: 17px;
+    margin-left:20%;
+     text-align:left;
+    font-family:'Inconsolata', monospace;
+
 }
